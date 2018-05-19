@@ -1,0 +1,2 @@
+{"requests":[{"publiccard":[31,29,22],"own":[12,21,53,1,47,44,40,45,20,27,23,28,3,32,26,50,35],"history":[[],[5,6,7,8,9,10,14,15,18,19]]}],"responses":[]}
+{"error":"错误：程序崩溃 / ERROR: Program raised a runtime error","output":"Traceback (most recent call last):\n  File \"5b0023f6ec4cfd686b04d47d.py36\", line 599, in <module>\n    last_combo = checkCombo(last)\n  File \"5b0023f6ec4cfd686b04d47d.py36\", line 516, in checkCombo\n    combo = list(filter(lambda cb: cb.length() == len(cards), combos))[0]\nIndexError: list index out of range\n"}
