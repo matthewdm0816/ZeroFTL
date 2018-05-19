@@ -50,12 +50,12 @@ ComboScore = {
 
 ComboPriority = {
     "Single"    : 0.15,
-    "Pair"      : 0.5,
+    "Pair"      : 0.15,
     "Straight"  : -0.1,
     "DStraight" : -0.3,
-    "Three"     : 0.3,
-    "Three1"    : 0.2, # 3 + 1
-    "Three2"    : 0.25, # 3 + 2
+    "Three"     : 0.15,
+    "Three1"    : 0.10, # 3 + 1
+    "Three2"    : 0.05, # 3 + 2
     "Plane"     : 0.1,
     "Plane1"    : -0.1, # 3 * N + 1 * N
     "Plane2"    : 0, # 3 * N + 2 * N
